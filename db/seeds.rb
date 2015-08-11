@@ -6,6 +6,8 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
+User.create(email: "hungrygames@penang.com", password: "12345678")
+
 Image.create(image_location: "Penang",image_title: "Char Koay Teow", image_url: "http://farm4.static.flickr.com/3406/4639234240_1573b9497d_o.jpg")
 Image.create(image_location: "Penang",image_title: "Char Koay Kak", image_url: "http://farm5.static.flickr.com/4037/4634781827_a2130bae1f_o.jpg")
 Image.create(image_location: "Penang",image_title: "Hokkien Mee",image_url: "http://www.chasechin.com/wp-content/uploads/2013/05/888HokkienMee-021.jpg")
