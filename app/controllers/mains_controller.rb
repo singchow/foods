@@ -5,4 +5,6 @@ class MainsController < ApplicationController
     @image = Image.all.sample(2)
     puts "End -- Getting Image"
   end
+
+  
 end

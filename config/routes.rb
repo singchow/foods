@@ -10,6 +10,8 @@ Rails.application.routes.draw do
 
   root 'mains#index'
 
+  get "/chosen/:id" => 'images#chosen'
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

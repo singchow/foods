@@ -7,14 +7,14 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <section id="container" >
-    <header class="header black-bg">
-          <a href="index.html" class="logo"><b>RoR Snippets</b></a>
+  <div id="container" >
+    <!-- <header class="header black-bg">
+          <a href="index.html" class="logo"><b>Hunger Games</b></a>
           <div class="top-menu">
             <ul class="nav pull-right top-menu">
             <% if user_signed_in? %>
               Logged in as <strong><%= current_user.email %></strong>.
-              <!-- <%# link_to 'Edit profile', edit_user_registration_path, :class => 'navbar-link' %> | -->
+              <%# link_to 'Edit profile', edit_user_registration_path, :class => 'navbar-link' %> |
               <%= link_to "Logout", destroy_user_session_path, method: :delete, :class => 'navbar-link'  %>
             <% else %>
               <%= link_to "Sign up", new_user_registration_path, :class => 'navbar-link'  %> |
@@ -22,13 +22,14 @@
             <% end %>
             </ul>
           </div>
-    </header>
+    </header> -->
     <% if notice %>
       <p class="alert alert-success"><%= notice %></p>
     <% end %>
     <% if alert %>
       <p class="alert alert-danger"><%= alert %></p>
     <% end %>
+          <h1 class="text-center">Hunger Games</h1>
         <section id="main-content">
           <%= yield %>
         </section>
@@ -38,6 +39,6 @@
           Copyright © 2015 Rails Feel
       </div>
     </footer>
-  </section>
+  </div>
 </body>
 </html>

@@ -18,8 +18,11 @@ ActiveRecord::Schema.define(version: 20150811082906) do
 
   create_table "images", force: :cascade do |t|
     t.string   "image_url"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.string   "image_title"
+    t.string   "image_location"
+    t.integer  "click_count"
+    t.datetime "created_at",     null: false
+    t.datetime "updated_at",     null: false
   end
 
   create_table "mains", force: :cascade do |t|
