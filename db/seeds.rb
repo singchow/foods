@@ -19,7 +19,7 @@ Image.create(image_location: "Penang",image_title: "Roti Canai",image_url: "http
 Image.create(image_location: "Penang",image_title: "Laksa",image_url: "http://my.openrice.com/userphoto/Article/0/A/0002263DF8F46B8D222049j.jpg")
 Image.create(image_location: "Penang",image_title: "Lok Lok",image_url: "https://eyriquefoodjournal.files.wordpress.com/2012/07/20120717-093947.jpg")
 Image.create(image_location: "Penang",image_title: "Bak Kut Teh",image_url: "http://www.tasteiest.com/wp-content/uploads/carnationbktl94.jpg")
-Image.create(image_location: "Penang",image_title: "Apom",image_url: "http://lh3.ggpht.com/JXm0Kz6OIk_K47ERZKsGo_heF0Myb9MyEXCPdHn0qKTNZJ0wH2L6mGhcixrRUnAmjrltQRYW6VYTqFVWJJtBouk=s800")
+Image.create(image_location: "Penang",image_title: "Apom",image_url: "https://c4.staticflickr.com/8/7666/17571906116_a62d9d17bc_c.jpg")
 Image.create(image_location: "Penang",image_title: "Ban Chean Kuih",image_url: "http://www.gopenang.my/site/wp-content/uploads/2013/09/Aki-Pancake.jpg")
 Image.create(image_location: "Penang",image_title: "Economic Rice",image_url: "http://farm4.static.flickr.com/3093/2679310632_23d214e5f8.jpg")
 Image.create(image_location: "Penang",image_title: "Oh Chien",image_url: "http://danielfooddiary.com/wp-content/uploads/2014/08/penang3.jpg")
