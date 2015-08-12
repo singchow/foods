@@ -42,7 +42,7 @@
               <% if !@user.blank? %>
               <div class="text-center">
                 <h3>Welcome <%= @user.email %></h3>
-                  <%= link_to "Your Favorite Food List", "/yourlist", class: "btn btn-large btn-primary", :color => "white" %>
+                  <%= link_to "Your Favorite Food List", "/yourlist", class: "btn btn-large btn-primary"%>
               </div>
               <% else %>
               <%= form_tag mains_path do %>

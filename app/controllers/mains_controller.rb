@@ -37,7 +37,7 @@ class MainsController < ApplicationController
   def yourlist
     puts "START --------- GETTING USER LIST"
     puts session[:email]
-    @userlist = Image.where(id: session[:image_id])
+    @userlist = Image.where(id: session[:selected_images].split(","))
     puts "END ----------- GETTING USER LIST"
   end
 
