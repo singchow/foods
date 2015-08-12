@@ -1,0 +1,24 @@
+
+<div id="container-fluid">
+<section id="main-content">
+        <section class="wrapper site-min-height">
+          <!-- <h3><i class="footera fa-angle-right"></i> Blank Page</h3> -->
+          <div class="row">
+            <div class="col-lg-12">
+              <!-- <h2><%# @welcomemsg %></h2> -->
+                <table class="table table-striped" >
+
+                  <tbody>
+                    <% @userlist.each do |food| %>
+                      <tr>
+                        <td colspan="5" align="right"><%= food.image_title %></td>
+                        <td colspan="5" align="left"><%= image_tag food.image_url, :width => 300, :class => "img img-responsive" %></td>
+                      </tr>
+                    <% end %>
+                  </tbody>
+                </table>
+            </div>
+          </div>
+        </section><!--/wrapper -->
+      </section>
+    </div>

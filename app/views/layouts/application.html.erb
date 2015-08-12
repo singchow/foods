@@ -42,11 +42,12 @@
               <% if !@user.blank? %>
               <div class="text-center">
                 <h3>Welcome <%= @user.email %></h3>
+                  <%= link_to "Your Favorite Food List", "/yourlist", class: "btn btn-large btn-primary", :color => "white" %>
               </div>
               <% else %>
               <%= form_tag mains_path do %>
                 <%= email_field_tag :email, params[:email], :placeholder => "Email here" %>
-                <%= submit_tag "What's the top rated food?", class: "btn btn-large btn-primary" %>
+                <%= submit_tag "Get Your Favorite Food List", class: "btn btn-large btn-primary" %>
               <% end %>
               <% end %>
 

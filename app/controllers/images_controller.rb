@@ -6,9 +6,6 @@ class ImagesController < ApplicationController
     puts Image.find(params[:id]).click_count
     puts "END ---- CHOSEN "
 
-    puts "START --------- COLLECTING IP"
-    puts request.ip
     redirect_to "/"
-    puts "END ----------- COLLECTING IP"
   end
 end

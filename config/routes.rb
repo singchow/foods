@@ -15,6 +15,8 @@ Rails.application.routes.draw do
 
   get "/chosen/:id" => 'images#chosen'
 
+  get '/yourlist' => 'mains#yourlist'
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
