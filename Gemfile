@@ -5,6 +5,10 @@ gem 'devise_invitable', '~> 1.3.4'
 
 gem 'rails_admin'
 
+gem 'geocoder'
+
+gem 'google-v3-geocoder'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
 # Use postgresql as the database for Active Record

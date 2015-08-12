@@ -1,0 +1,2 @@
+class GeotracksController < ApplicationController
+end

@@ -36,6 +36,21 @@
         </section>
 
         <footer class="site-footer navbar-fixed-bottom">
+          <div class="text-center">
+
+              <!-- <%# label_tag :email %> -->
+              <% if !@user.blank? %>
+              <div class="text-center">
+                <h3>Welcome <%= @user.email %></h3>
+              </div>
+              <% else %>
+              <%= form_tag mains_path do %>
+                <%= email_field_tag :email, params[:email], :placeholder => "Email here" %>
+                <%= submit_tag "What's the top rated food?", class: "btn btn-large btn-primary" %>
+              <% end %>
+              <% end %>
+
+          </div>
           <!-- <div class="text-center">
             <p><a target="_blank" href="http://www.tourismpenang.net.my/pdf/penangfoodtrail.pdf">Download a personal copy of Penang Food Trail</p>
           </div> -->

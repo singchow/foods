@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :geotracks
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   resources :images
   resources :images
