@@ -29,8 +29,8 @@ class MainsController < ApplicationController
     Geotrack.create(ip: request.ip,
                     coordinate: request.location.latitude.to_s + "," + request.location.longitude.to_s,
                     county: request.location.country,
-                    state: request.location.state,
-                    referral: request.env["HTTP_REFERER"])
+                    referral: request.env["HTTP_REFERER"],
+                    state: request.location.state)
     puts "END ----------- COLLECTING USER INFO"
   end
 
