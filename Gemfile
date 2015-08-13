@@ -4,9 +4,12 @@ gem 'devise',           '>= 2.0.0'
 gem 'devise_invitable', '~> 1.3.4'
 
 gem 'rails_admin'
+gem "paperclip", "~> 4.3"
+
+gem "figaro"
+gem 'paperclip-dropbox'
 
 gem 'geocoder'
-
 gem 'google-v3-geocoder'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

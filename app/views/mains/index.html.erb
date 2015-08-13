@@ -14,9 +14,9 @@
                     <th colspan="5" class="text-center"><h1><%= @image.second.image_title %></h1></th>
                   </tr>
                   <tr>
-                    <td colspan="5" align="center"><a href="/chosen/<%= @image.first.id %>"><img class="img img-responsive" src="<%= @image.first.image_url %>" class="img-circle" width="500"></td>
+                    <td colspan="5" align="center"><a href="/chosen/<%= @image.first.id %>"><img class="img img-responsive" src="<%= @image.first.avatar.url(:medium) %>" class="img-circle" width="500"></td>
                       <td />
-                    <td colspan="5" align="center"><a href="/chosen/<%= @image.second.id %>"><img class="img img-responsive" src="<%= @image.second.image_url %>" class="img-circle" width="500"></td></td>
+                    <td colspan="5" align="center"><a href="/chosen/<%= @image.second.id %>"><img class="img img-responsive" src="<%= @image.second.avatar.url(:medium) %>" class="img-circle" width="500"></td></td>
                   </tr>
                 </table>
               <% else %>

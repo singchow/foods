@@ -12,7 +12,7 @@
                     <% @userlist.each do |food| %>
                       <tr>
                         <td colspan="5" align="right"><%= food.image_title %></td>
-                        <td colspan="5" align="left"><%= image_tag food.image_url, :width => 300, :class => "img img-responsive" %></td>
+                        <td colspan="5" align="left"><%= image_tag food.avatar.url(:medium), :width => 300, :class => "img img-responsive" %></td>
                       </tr>
                     <% end %>
                   </tbody>
